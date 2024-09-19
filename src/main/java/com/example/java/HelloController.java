@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @Slf4j
 public class HelloController {
-    private   Logger log;
+
 
     @GetMapping("/orders")
     public List<Order> getOrders(@RequestHeader Map<String, String> RequestHeader) {
