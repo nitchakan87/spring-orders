@@ -21,7 +21,7 @@ import java.util.UUID;
 public class PaymentService {
 
     private static final String CORRELATION_ID = "correlationId";
-
+    private   Logger log;
     @Autowired
     private RestTemplate restTemplate;
 
